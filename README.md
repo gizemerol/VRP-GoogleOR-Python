@@ -1,4 +1,4 @@
-# PoC
+# Vehicle Routing Problem with Service Time
 The VRP is one of the most attractive optimization problems. 
 Many different variants have studied in the literature such as capacitated VRP, 
 VRP with time windows etc. 
