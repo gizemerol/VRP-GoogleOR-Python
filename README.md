@@ -15,8 +15,8 @@ Problem definition, objective and constraints are given in the following part
  in detail:
 
 #### Problem definition
-* Each vehicle starts their different depot.
-* Vehicles don't have to return the depot.
+* Each vehicle starts a different depot.
+* Vehicles don't have to return to their initial depot.
 * Each order has different service time.
 
 #### Objective
@@ -25,7 +25,7 @@ Problem definition, objective and constraints are given in the following part
 
 #### Constraints
 * Each order should be assigned to a vehicle.
-* Subtours should be eliminated.
+* All subtours should be eliminated.
 * Flow conservation should be preserved.
 
 
