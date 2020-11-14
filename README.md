@@ -1,17 +1,17 @@
-# Vehicle Routing Problem with Service Time
+# Vehicle Routing Problem with Service Time (Python)
 The VRP is one of the most attractive optimization problems. 
 Many different variants have studied in the literature such as capacitated VRP, 
 VRP with time windows etc. 
 
 I have solved this problem implementing Google OR-Tools linear solver. 
 The inputs of this problem are vehicles, orders and distance matrix between orders.
-Input data is given in the "input.json" file in detail.
+Input data is provided in the "input.json" file.
 
-The aim of the problem is to find the minimum total total distance. Thus, we 
+The aim of the problem is to find the minimum total distance. Thus, we 
 need to decide optimum order assignment to each vehicle considering problem
 constraints.
 
-Problem definition, objective and constraints are given in the following part
+Problem definition, objective function and constraints are given in the following part
  in detail:
 
 #### Problem definition
@@ -19,7 +19,7 @@ Problem definition, objective and constraints are given in the following part
 * Vehicles don't have to return to their initial depot.
 * Each order has different service time.
 
-#### Objective
+#### Objective Function
 * The aim  is to find optimum routes that minimize the total distance.
 
 
@@ -31,7 +31,7 @@ Problem definition, objective and constraints are given in the following part
 
 #### Output
 * Total delivery time of each order
-* Consecutive assigned orders to each vehicle 
+* List of assigned orders for each vehicle 
 
 
 
