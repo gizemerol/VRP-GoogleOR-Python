@@ -15,7 +15,7 @@ Problem definition, objective and constraints are given in the following part
  in detail:
 
 #### Problem definition
-* Each vehicle starts a different depot.
+* Each vehicle starts from a different depot.
 * Vehicles don't have to return to their initial depot.
 * Each order has different service time.
 
