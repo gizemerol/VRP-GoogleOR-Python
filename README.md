@@ -8,7 +8,7 @@ The inputs of this problem are vehicles, orders and distance matrix between orde
 Input data is given in the "input.json" file in detail.
 
 The aim of the problem is to find the minimum total total distance. Thus, we 
-need to decide optimum assignment of the orders to each vehicle considering problem
+need to decide optimum order assignment to each vehicle considering problem
 constraints.
 
 Problem definition, objective and constraints are given in the following part
